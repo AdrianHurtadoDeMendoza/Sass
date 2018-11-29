@@ -1,0 +1,104 @@
+div.scrollmenu {
+    background-color: #0080c0;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.fondito{
+	background-image: url(fondo.jpg);
+	background-position: center;
+	backgound-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100% ;
+	background-size: cover ;
+height: 100% ;
+	
+}
+progress{
+	border-radius:10px;
+	
+}
+* {box-sizing: border-box}
+
+.containeee {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html {width: 70%; background-color: #4CAF50;}
+.css {width: 70%; background-color: #2196F3;}
+.java {width: 80%; background-color: #f44336;}
+.php {width: 80%; background-color: #4e9a06;}
+.sql {width: 70%; background-color: #75507b;}
+.contenedor
+	{
+		background-color:rgba(112,179,221,0.5) !important;
+		
+		width:60%;
+		pading:10px;
+		margin:0 auto;		
+	}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: #400040;
+    text-align: center;
+   padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #a6dcee;
+    padding: 20px;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
